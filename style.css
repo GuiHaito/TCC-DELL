@@ -1,13 +1,20 @@
 @charset "utf-8";
  
 body {
-    background-color: #f5f5f5; 
-    color: #191970; 
-    font-family: Arial, Verdana, sans-serif;
+    /*background-color: #f5f5f5; */
+    background: url('fundo.jpg') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 header {
-    text-align: center;
-}
+    display: flex; 
+    -webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+ }
 /*h1 {
     text-align: center;
     background-color: #c9a019; 
@@ -24,17 +31,49 @@ h1 {
     font-family: 'Jazz LET, fantasy';
     color: #ffa600;
     text-shadow: 3px 3px rgba(82, 81, 81, 0.507);
-}
-
+ }
+ .container { 
+    display: flex; 
+    /*flex-direction: column;*/
+    -webkit-column-count: 3;
+    -moz-column-count: 3; 
+    column-count: 3;
+  }
 #missao {
     
     font-family: 'Bradley Hand, cursive';
     text-align: center;
     border: 5px solid #ffa600;
-    width:450px;
+    width:500px;
 	height:300px;
     border-radius: 100px;
+    order: 1;
     
+  }
+#visao {
+    
+    font-family: 'Bradley Hand, cursive';
+    text-align: center;
+    border: 5px solid #ffa600;
+    width:500px;
+	height:300px;
+    border-radius: 100px;
+    order: 2;
+    
+  }
+#valores {
+    
+    font-family: 'Bradley Hand, cursive';
+    text-align: center;
+    border: 5px solid #ffa600;
+    width:500px;
+	height:300px;
+    border-radius: 100px;
+    order: 3;
+    
+  }
+  .contato{
+      text-align: center;
   }
 footer {
     font-family: 'Courier New', Courier, monospace;
