@@ -8,7 +8,7 @@ body {
 header {
     text-align: center;
 }
-h1 {
+/*h1 {
     text-align: center;
     background-color: #c9a019; 
     color: #e6e6fa; 
@@ -16,16 +16,26 @@ h1 {
     width:300px;
 	height:100px;
     border-radius: 100px;
-	}
-h4 {
-    font-family:courier,arial,helvetica;
-    text-align: center;
-    background-color: #3dac4c; 
-    color: #e6e6fa; 
-    width:100px;
-	height:25px;
-    border-radius: 10px 20px 30px 40px;
+    float: right; // ALINHAMENTO
+    }
+*/
+h1 {
+    font-size: 40px;
+    font-family: 'Jazz LET, fantasy';
+    color: #ffa600;
+    text-shadow: 3px 3px rgba(82, 81, 81, 0.507);
 }
+
+#missao {
+    
+    font-family: 'Bradley Hand, cursive';
+    text-align: center;
+    border: 5px solid #ffa600;
+    width:450px;
+	height:300px;
+    border-radius: 100px;
+    
+  }
 footer {
     font-family: 'Courier New', Courier, monospace;
 }
