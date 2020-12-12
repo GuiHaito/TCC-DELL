@@ -30,7 +30,7 @@ h1 {
     font-size: 40px;
     font-family: 'Jazz LET, fantasy';
     color: #ffa600;
-    text-shadow: 3px 3px rgba(82, 81, 81, 0.507);
+    text-shadow: 2px 2px rgba(82, 81, 81, 0.507);
  }
  .container { 
     display: flex; 
@@ -63,15 +63,18 @@ h1 {
   }
 #valores {
     
-    font-family: 'Bradley Hand, cursive';
-    text-align: center;
-    border: 5px solid #ffa600;
+    border: 5px solid #ff4a02;
     width:500px;
 	height:300px;
     border-radius: 100px;
     order: 3;
     
   }
+#solucao{
+    text-align: center;
+    color: black;
+    font-size: 15px
+}
   .contato{
       text-align: center;
   }
