@@ -19,17 +19,6 @@ header {
     text-align: center;
     
  }
-/*h1 {
-    text-align: center;
-    background-color: #c9a019; 
-    color: #e6e6fa; 
-    font-family: 'Times New Roman', Times, serif, "Times New Roman", serif; 
-    width:300px;
-	height:100px;
-    border-radius: 100px;
-    float: right; // ALINHAMENTO
-    }
-*/
 h1 {
     font-size: 40px;
     font-family: 'Jazz LET, fantasy';
@@ -47,7 +36,7 @@ h1 {
     
     font-family: 'Bradley Hand, cursive';
     text-align: center;
-    border: 5px solid #ffa600;
+    border: 5px solid #fac460;
     width:500px;
 	height:300px;
     border-radius: 100px;
